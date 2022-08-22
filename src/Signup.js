@@ -35,6 +35,9 @@ function Signup() {
             })
           );
           history.push("/teslaaccount");
+        })
+        .catch((err) => {
+          console.log("err", err);
         });
     });
   };

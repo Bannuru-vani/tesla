@@ -26,6 +26,24 @@ function App() {
           />
           <Route path="/signUp" element={<Signup />} />
           <Route exact path="/teslaaccount" element={<TeslaAccount />} />
+          <Route
+            exact
+            path="/teslaaccount"
+            {...(user ? (
+              <Navigate path="/login" />
+            ) : (
+              <TeslaAccount
+                isMenuVisible={isMenuVisible}
+                setIsMenuVisible={setIsMenuVisible}
+              />
+            ))}
+            element={
+              <TeslaAccount
+                isMenuVisible={isMenuVisible}
+                setIsMenuVisible={setIsMenuVisible}
+              />
+            }
+          />
 
           <Route
             exact
