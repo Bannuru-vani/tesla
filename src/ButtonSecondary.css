@@ -1,0 +1,16 @@
+.button-secondary{
+    background-color: black;
+    border:none;
+    border-radius:50px;
+    cursor: pointer;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.4s;
+    padding:12px 40px;
+    width:350px;
+}
+.button-secondary:hover{
+    background-color: white;
+    color:black;
+}

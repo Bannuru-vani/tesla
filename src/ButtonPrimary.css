@@ -1,0 +1,18 @@
+.button-primary{
+    background-color: blue;
+    border: none;
+    padding:12px 40px;
+    color:white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+.button-primary:hover{
+    background-color: lightslategrey;
+    color:black
+}
+  
