@@ -11,7 +11,8 @@ function Signup() {
   const [password, setPassword] = useState("");
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
-  const history = useNavigate();
+  // const history = useNavigate();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const signUp = (e) => {
     e.preventDefault();
@@ -34,7 +35,7 @@ function Signup() {
               displayName: fName,
             })
           );
-          history.push("/teslaaccount");
+          navigate("/teslaaccount");
         })
         .catch((err) => {
           console.log("err", err);

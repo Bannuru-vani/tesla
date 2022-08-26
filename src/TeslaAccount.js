@@ -48,7 +48,7 @@ function TeslaAccount({ setIsMenuVisible, isMenuVisible }) {
         <div className="teslaaccount_person">
           <h4>{user?.displayName + "s"}</h4>
         </div>
-        <div className="teslaaccount__infoRight">
+        <div className="teslaAccount__infoRight">
           <Link to="/">Home</Link>
           <Link to="/">Account</Link>
           <Link to="/">History</Link>
@@ -71,7 +71,6 @@ function TeslaAccount({ setIsMenuVisible, isMenuVisible }) {
         <Car
           imagesrc="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/carbon-fiber-shelby-mustang-1600685276.jpg?crop=0.9988636363636364xw:1xh;center,top&resize=480:*"
           modeltype="model S"
-          testDrive="hii nmedjljsa"
         />
       </div>
     </div>
